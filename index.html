@@ -14,6 +14,24 @@
     <div id="root"></div>
     <script type="text/babel">
 //React Code here
+var ReponsiveUI=React.createElement(
+            'div',{className:'container'},
+              React.createElement('div',{className:'row yellow'},
+                React.createElement('div',{className:'content'},),
+                React.createElement('div',{className:'content'},)
+                ),
+                React.createElement('div',{className:'row red'},
+                React.createElement('div',{className:'content'},),
+                ),
+                React.createElement('div',{className:'row blue'},
+                React.createElement('div',{className:'content'},),
+                React.createElement('div',{className:'content'},),
+                React.createElement('div',{className:'content'},)
+                ),
+
+              
+        )
+/*
 const ReponsiveUI=({props})=>{
   return(
     <div  className="container">
@@ -31,8 +49,8 @@ const ReponsiveUI=({props})=>{
       </div>
     </div>
   );
-}
- ReactDOM.render(<ReponsiveUI></ReponsiveUI>,document.getElementById('root'));
+}*/
+ ReactDOM.render(ReponsiveUI,document.getElementById('root'));
 
 </script>
 <!--
