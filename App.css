@@ -1,0 +1,26 @@
+ .App {
+  text-align: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  width: 60%;
+  float:right;
+
+}
+.profile-info h1{
+  color: skyblue;
+}
+.profile-info label{
+  color:grey;
+  font-size: 10px;
+}
+.detail{
+  margin-bottom: 20px;
+}
+.profile-info label,.profile-info strong{
+  display: block;
+  margin-top: 5px;
+}
