@@ -49,7 +49,7 @@ const App = () => {
           <div className="customer-info block">
             <p className="text">
               <span>
-                <strong>Appointment </strong>
+                <strong>Appointment On </strong>
               </span>
               {
                 Appointments.appoinmenton
