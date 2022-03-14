@@ -1,26 +1,100 @@
- .App {
-  text-align: center;
+html{
+    font-size: 14px;
 }
-.container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: left;
-  width: 60%;
-  float:right;
+body{
+    line-height:1.5;
+    color:black;
+    text-decoration: none;
+}
+a:not[href]:not([tabindex]){
+    color: inherit;
+    text-decoration: none;
+}
+a:not([href]):not([tabindex]):hover,a:not([href]):not([tabindex]):focus{
+    color:inherit;
+    text-decoration: none;
+}
+a:not([href]):not([tabindex]):focus{
+    outline: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+    border-style: none;
+}
+a{
+    background-color: transparent;
+    text-decoration: none;
+}
+h1{
+    margin: 0;
+}
+.nav{
+    background-color: #eee;
+    padding:0.5rem;
+    border-bottom: 1px solid #989898;
+    text-align: center;
+    min-height: 50px;
+    margin-bottom: 1.5rem;
+}
 
+.nav-arrow{
+    float: left;
+    font-size: 40px;
+    color:#989898;
 }
-.profile-info h1{
-  color: skyblue;
+.nav-btn{
+    position: absolute;
+    top:2rem;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    right:1rem;
+    padding: 10px;
 }
-.profile-info label{
-  color:grey;
-  font-size: 10px;
+.block{
+    margin-bottom: 1.5rem;
+    border:1px solid #dedede;
+    border-radius: 0.2rem;
+    padding: 10px;
 }
-.detail{
-  margin-bottom: 20px;
+.grid{
+    display:block;
+    clear:both;
 }
-.profile-info label,.profile-info strong{
-  display: block;
-  margin-top: 5px;
+.customer-info{
+    margin:20px;
+}
+.order-info{
+    border-color:grey;
+    background-color: #eee;
+    height: 100px ;
+    margin:0 20px 20px 20px;
+}
+.grid .one-third{
+    width: 30%;
+    float: left;
+    padding-left:30px ;
+}
+.product-arrow{
+    position: absolute;
+    right: 1em;
+    font-size: 40px;
+    color:#989898;
+}
+.product-list{
+    border:1px solid#dedede;
+    margin:0 20px 0 20px;
+}
+.product-list li{
+    display:inline-block;
+    margin:10px;
+}
+.product-list li:nth-child(2){
+max-width: 80%;
+}
+.product-info{
+    color: black;
 }
